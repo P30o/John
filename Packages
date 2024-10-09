@@ -1,33 +1,17 @@
-Package: com.JohnSpire.tiktok
+Package: com.johnspire.tiktok
 Version: 1.87.1
 Architecture: iphoneos-arm64
 Maintainer: JohnSpire
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
 Filename: ./debfiles/TikTokDark.deb
-Size: 83200
-MD5sum: 2a251ed7c5909de2e360cdd7f802d8ab
-SHA1: 5359a993f44c88b506e13ef1136ca1430b2c8aa0
-SHA256: 70e3570db1423720e778207c9564e7276a2386088ed4ce59468c8d2cc337704a
+Size: 83220
+MD5sum: c327e7ea584cc440853354776e452d8a
+SHA1: 37e8613f647df12e119bf318a7037800993d6524
+SHA256: bdcd08501119d3e1169b35375976c7af6d8289148a7f67abadbfcd3f05f3cced
 Section: الادوات
 Description: Download video without watermark, Remove Ads, Auto play next video, Hide all text on screen.. & more
-Author: Sago
+Author: JohnSpire
 Depiction: https://0sop.github.io/depictions/TiktokDark.html
 Icon: https://github.com/P30o/repoghost/blob/main/CydiaIcon.png
 Name: TikTok Dark (Xinafied-rootless)
-
-Package: com.JohnSpire.youtube
-Version: 1.87.1
-Architecture: iphoneos-arm64
-Maintainer: JohnSpire
-Depends: mobile-substrate (>= 0.9.5000)
-Filename: ./debfiles/com.JohnSpire.youtube_1.87.1_iphoneos-arm64.deb
-Size: 4300
-MD5sum: 291ab50dce49b905fb7a2602f0350cac
-SHA1: 6a9a232ee4427cc307e4e9e8b874a9371d56ecd2
-SHA256: 854da8bc2e1a6f060117da536c1f656eda7a284d8e4c7be8ee7bb92abd99ccb0
-Section: الادوات
-Description: YouTube No Ads & plays in the Background
-Author: Sago
-Icon: https://github.com/P30o/repoghost/blob/main/CydiaIcon.png
-Name: YouTube Premium
 
