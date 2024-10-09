@@ -1,0 +1,12 @@
+Package: com.JohnSpire.tiktok
+Version: 1.87.1
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your.email@example.com>
+Description:  Download video without watermark, Remove Ads, Auto play next video, Hide all text on screen.. & more
+
+Package: com.JohnSpire.youtube
+Version: 1.87.1
+Architecture: iphoneos-arm64
+Maintainer: Your Name <your.email@example.com>
+Description:  YouTube No Ads & plays in the Background
+
