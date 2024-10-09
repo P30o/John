@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=yes" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>جون سباير</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <style>
+        html, body {
+            height: 100%; /* اجعل ارتفاع الصفحة 100% */
+            margin: 0; /* إزالة الهوامش الافتراضية */
+        }
+
+        body {
+            display: flex; /* استخدم flexbox لتوزيع المحتوى */
+            flex-direction: column; /* الترتيب عموديًا */
+        }
+
+        .main-content {
+            flex: 1; /* اجعل محتوى الصفحة يشغل المساحة المتاحة */
+        }
+
+        .footer {
+
+            color: white; /* لون النص */
+            text-align: center; /* توسيط النص */
+            padding: 20px 0; /* مساحة داخلية */
+            width: 100%; /* عرض كامل */
+            margin-top: 20px; /* مسافة بين المحتوى والفوتر */
+        }
+				#footer {
+    background: #101010;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* لتضمن أن الفوتر يكون في الأسفل */
+}
+
+#social-icons a {
+    display: inline-block;
+    margin: 0 15px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-icons a {
+    margin: 0 15px;
+    color: white;
+    font-size: 40px;
+    transition: color 0.3s;
+}
+
+.footer-icons a:hover {
+    color: #ffcc00; /* اللون عند التمرير */
+}
+
+.copyright {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="main-content">
+    <br>
+    <br>
+
+    <div class="headhov">
+        <div class="animated count pulse" id="header" onclick="location.href='https://johnspire.netlify.app/'">
+        </div>
+    </div>
+
+    <div class="filter animated fadeInUp" id="repotitle">
+JohnSpire Repository
+    </div>
+		<div class="filter animated fadeInUp" id="repodesc">
+    <blockquote class="quranic-quote">
+        <p><br>
+            <span class="quranic-verse">وَأَنَّ مَعَ الْعُسْرِ يُسْرًا</span> <!-- آية قصيرة -->
+        </p>
+    </blockquote>
+</div>
+
+<style>
+    .quranic-quote {
+        background-color: 
+				; /* خلفية داكنة */
+        border-left: 10px solid #fff; /* خط ملون على اليسار */
+        padding: 15px 15px; /* حواف داخلية */
+        margin: 20px auto; /* هامش أعلى وأسفل ووسط */
+        font-family: 'Arial', sans-serif; /* نوع الخط */
+        font-size: 1.5em; /* حجم الخط أكبر */
+        color: #fff; /* لون النص */
+        border-radius: 16px; /* زوايا مدورة */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+        position: relative; /* للمزيد من التحكم */
+        max-width: 600px; /* عرض أقصى للاقتباس */
+        text-align: center; /* مركز النص */
+    }
+
+    .quranic-quote::before {
+        content: '“'; /* علامة الاقتباس */
+        font-size: 200px; /* حجم كبير لعلامة الاقتباس */
+        color: #ffffff; /* لون العلامة */
+        position: absolute; /* تحديد موضع العلامة */
+        top: -20px; /* ضبط الموقع */
+        left: 10px; /* ضبط الموقع */
+        opacity: 0.5; /* شفافية */
+    }
+
+    .quranic-verse {
+        font-weight: bold; /* جعل النص عريض */
+    }
+</style>
+    <center>
+			
+
+			
+        <img src="assets/tag.png" style="width: 100px; height: 100px" class="filter animated fadeInUp">
+        </center>
+        <br>
+        <div style="margin-left: 30px; margin-right: 30px" class="filter animated fadeInUp" id="clickto">
+            أضف إلى متجر الجيلبريك
+        </div>
+
+        <div style="margin-top: 60px; margin-bottom: 90px;" class="animated fadeIn2">
+            <center>
+                <div style="margin-top: 30px; margin-bottom: 25px; margin-left: 25px; margin-right: 40px" class="row zoom animated swirlcydia">
+                    <div class="cydiablur zoom">
+                        <div class="cydiablur-inside">
+                            <img onclick="location.href='cydia://url/https://cydia.saurik.com/api/share#?source=https://johnspire.netlify.app/';" src="assets/cydiaicon.png" style="width: 125px; height: 125px" class="filter">
+                        </div>
+                    </div>
+                    <div class="filter animated fadecydia" id="caption">Cydia</div>
+                </div>
+
+                <div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlsileo">
+                    <div class="sileoblur zoom">
+                        <div class="sileoblur-inside">
+                            <img onclick="location.href='sileo://source/https://johnspire.netlify.app/';" src="assets/sileoicon.png" style="width: 125px; height: 125px" class="filter">
+                        </div>
+                    </div>
+                    <div class="filter animated fadesileo" id="caption">Sileo</div>
+                </div>
+
+                <div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 40px" class="row zoom animated swirlzebra">
+                    <div class="zebrablur zoom">
+                        <div class="zebrablur-inside">
+                            <img onclick="location.href='zbra://sources/add/https://johnspire.netlify.app/';" src="assets/zebraicon.png" style="width: 125px; height: 125px" class="filter">
+                        </div>
+                    </div>
+                    <div class="filter animated fadezebra" id="caption">Zebra</div>
+                </div>
+
+                <div style="margin-top: 25px; margin-bottom: 25px; margin-left: 40px; margin-right: 25px" class="row zoom animated swirlinstaller">
+                    <div class="installerblur zoom">
+                        <div class="installerblur-inside">
+                            <img onclick="location.href='installer://add/repo=https://johnspire.netlify.app';" src="assets/installericon.png" style="width: 125px; height: 125px" class="filter">
+                        </div>
+                    </div>
+                    <div class="filter animated fadeinstaller" id="caption">Installer</div>
+                </div>
+            </center>
+        </div>
+    </div>
+</div>
+<footer id="bottomnavbar">
+    <div class="footer-icons">
+        <a href="mailto:example@example.com" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/username" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.reddit.com/user/username" target="_blank" title="Reddit">
+            <i class="fab fa-reddit"></i>
+        </a>
+        <a href="https://twitter.com/username" target="_blank" title="Twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </div>
+<div class="copyright">
+    &copy; 2024 All rights reserved. JohnSpire.
+</div>
+
+</footer>
+
+
+
+</body>
+</html>

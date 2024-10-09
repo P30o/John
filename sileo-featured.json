@@ -1,0 +1,29 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{380, 180}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+      "url": "https://github.com/P30o/repoghost/blob/main/CydiaIcon.png",
+      "title": "YouTube Premium",
+      "package": "com.JohnSpire.youtube",
+      "description": "YouTube with no ads and background play.",
+      "hideShadow": false,
+      "action": {
+        "type": "openURL",
+        "url": "sileo://package/com.JohnSpire.youtube"
+      }
+    },
+    {
+      "url": "https://github.com/P30o/repoghost/blob/main/CydiaIcon.png",
+      "title": "TikTok Dark",
+      "package": "com.JohnSpire.tiktok",
+      "description": "TikTok without ads and watermark removal.",
+      "hideShadow": false,
+      "action": {
+        "type": "openURL",
+        "url": "sileo://package/com.JohnSpire.tiktok"
+      }
+    }
+  ]
+}
