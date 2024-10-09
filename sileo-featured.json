@@ -5,12 +5,12 @@
   "banners": [
     {
       "url": "https://l.top4top.io/p_3204izmew0.jpeg",
-      "title": "Visit my Twitter",
+      "title": "Visit my Profile",
       "package": "",
       "hideShadow": false,
       "action": {
         "type": "openURL",
-        "url": "https://twitter.com/iosgho6t"
+        "url": "https://x.com/iosgho6t?s=21&t=gDTtt3noIINkmZoLewp_pA" // استبدل هذا بالرابط الذي تريده
       }
     }
   ]
