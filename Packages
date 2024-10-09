@@ -4,10 +4,10 @@ Architecture: iphoneos-arm64
 Maintainer: JohnSpire
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.6.0), firmware (>= 12)
 Filename: ./debfiles/TikTokDark.deb
-Size: 83220
-MD5sum: c327e7ea584cc440853354776e452d8a
-SHA1: 37e8613f647df12e119bf318a7037800993d6524
-SHA256: bdcd08501119d3e1169b35375976c7af6d8289148a7f67abadbfcd3f05f3cced
+Size: 83368
+MD5sum: 4284299a10674b5e22995855ea94e928
+SHA1: 2c2c4d133d1ae619ee146bd4d142c937bb4bb6ba
+SHA256: b9ab43687015d74e848c0bc8421e4e20dfe9d66187300a29ceb79ee4f1fb3fb1
 Section: الادوات
 Description: Download video without watermark, Remove Ads, Auto play next video, Hide all text on screen.. & more
 Author: JohnSpire
