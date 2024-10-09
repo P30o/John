@@ -5,9 +5,29 @@
   "banners": [
     {
       "url": "https://l.top4top.io/p_3204izmew0.jpeg",
-      "title": "",
+      "title": "Visit my Twitter",
       "package": "",
-      "hideShadow": false
+      "hideShadow": false,
+      "action": {
+        "type": "openURL",
+        "url": "https://twitter.com/iosgho6t" // استبدل بـ اسم حسابك
+      },
+      "buttons": [
+        {
+          "title": "Button 1",
+          "action": {
+            "type": "openURL",
+            "url": "https://link1.com"
+          }
+        },
+        {
+          "title": "Button 2",
+          "action": {
+            "type": "openURL",
+            "url": "https://link2.com"
+          }
+        }
+      ]
     }
   ]
 }
