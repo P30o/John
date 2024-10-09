@@ -1,7 +1,9 @@
 #!/bin/bash
+git config --global --add safe.directory /private/var/mobile/John
+
 
 # مسار إلى المستودع
-REPO_PATH="/var/mobile/repoghost"
+REPO_PATH="/var/mobile/John"
 
 # تحديث ملفات Packages
 cd $REPO_PATH
