@@ -5,13 +5,9 @@
   "banners": [
     {
       "url": "https://l.top4top.io/p_3204izmew0.jpeg",
-      "title": "Visit my Profile",
+      "title": "JohnSpire Repository",
       "package": "",
-      "hideShadow": false,
-      "action": {
-        "type": "openURL",
-        "url": "https://x.com/iosgho6t?s=21&t=gDTtt3noIINkmZoLewp_pA" // استبدل هذا بالرابط الذي تريده
-      }
+      "hideShadow": false
     }
   ]
 }
